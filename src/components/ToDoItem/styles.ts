@@ -10,6 +10,8 @@ export const styles = StyleSheet.create({
         backgroundColor: '#262626',
         padding: 12,
         gap: 8,
+        marginBottom: 8,
+        borderRadius: 8
     },
     button: {
         width: 24,

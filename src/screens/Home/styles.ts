@@ -5,9 +5,9 @@ export const styles = StyleSheet.create({
         flex: 1
     },
     logoSection: {
-        flex: 2,
+        height: 170,
         backgroundColor: "#0D0D0D",
-        padding: 24,
+        justifyContent: 'center',
         alignItems: 'center',
     },
     logo: {
@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         resizeMode: 'contain'
     },
     todoContainer: {
-        flex: 8,
+        flex: 1,
         padding: 24,
         backgroundColor: "#1A1A1A",
     },
@@ -67,7 +67,8 @@ export const styles = StyleSheet.create({
         backgroundColor: "#333333",
         paddingVertical: 2,
         paddingHorizontal: 8,
-        borderRadius: 20
+        borderRadius: 20,
+        color: '#FFF'
     },
     emptyListContainer: {
         borderTopWidth: 1,
