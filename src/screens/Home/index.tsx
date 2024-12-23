@@ -34,7 +34,7 @@ export function Home(){
     }
 
     function handleTodoRemove(text: string){        
-        Alert.alert("Remover", `Remover o todo?`, [
+        Alert.alert("Remover", `Remover o lembrete?`, [
             {
                 text: 'Sim',
                 onPress: () => setTodos(prevState => prevState.filter((todos) => todos.text !== text))
